@@ -1,9 +1,10 @@
-import numpy as np
+
 import random
 import math
+import numpy as np
 
-n = 8
-k = 3
+n = 20
+k = 5
 
 
 def partitions(n, k, min_p1=1):
@@ -232,7 +233,7 @@ def f(All):
          for list in List:
              if (j == 0):
                  print(
-                     "Great ,now if there is a problem I will print it here if there is no problem i will not print anything")
+                     "Great ,now if there is a problem I will print it here")
                  j = 1
              if (sum(list) != get_s()):
                  i += 1
